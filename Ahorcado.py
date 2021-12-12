@@ -1,3 +1,5 @@
+# Programa del ahorcado
+
 import random
 import os
 
