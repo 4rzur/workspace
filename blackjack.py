@@ -16,7 +16,7 @@ def run():
     print('\n Quieres carta?\n\n')
          
     eleccion =input()
-    os.system("cls")
+    os.system("clear")
     
     if eleccion == 's':
         cartajugador2 = int(random.choice(baraja))
@@ -24,7 +24,7 @@ def run():
         time.sleep(3)
         print(' *** BLACKJACK ***\n\n\n')
         eleccion2 = input('Quieres seguir? ')
-        os.system("cls")
+        os.system("clear")
         
         if eleccion2 == 's':
             total = cartajugador1 + cartajugador2
